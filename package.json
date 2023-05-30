@@ -10,7 +10,8 @@
     "lint": "eslint src --ext .ts --fix",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:coverage": "vitest --coverage"
+    "test:coverage": "vitest --coverage",
+    "test:ui": "vitest --ui"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "@types/bcryptjs": "2.4.2",
     "@types/node": "20.2.5",
     "@vitest/coverage-c8": "0.31.2",
+    "@vitest/ui": "0.31.2",
     "eslint": "8.41.0",
     "prisma": "4.14.1",
     "tsup": "6.7.0",
